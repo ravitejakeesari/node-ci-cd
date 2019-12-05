@@ -4,7 +4,7 @@
   "description": "test for continuous integration and deployment using git",
   "main": "\u001b[D\u001b[D\u001b[D\u001bapp\u001b[3~\u001b[3~\u001b[3~",
   "scripts": {
-    "test": "npm test",
+    "test": "mocha \"*/test/**/*.js\"",
     "start": "nodemon src/app.js"
   },
   "repository": {
@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/ravitejakeesari/node-ci-cd#readme",
   "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "express": "^4.17.1",
+    "mocha": "^6.2.2",
     "nodemon": "^2.0.1"
   }
 }
