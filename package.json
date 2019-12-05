@@ -1,0 +1,19 @@
+{
+  "name": "with-git-ci-cd",
+  "version": "1.0.0",
+  "description": "test for continuous integration and deployment using git",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bapp\u001b[3~\u001b[3~\u001b[3~",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravitejakeesari/node-ci-cd.git"
+  },
+  "author": "Ravi Teja Keesari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravitejakeesari/node-ci-cd/issues"
+  },
+  "homepage": "https://github.com/ravitejakeesari/node-ci-cd#readme"
+}
